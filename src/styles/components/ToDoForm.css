@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,500;0,600;0,800;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,500;0,600;0,800;1,200&family=Oxygen&display=swap');
+
+form.toDoForm{
+    display: flex;
+    flex-direction: column;
+    background: rgba(221, 221, 221, 0.466);
+    padding: 20px;
+    gap: 50px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 550px;
+}
+
+form.toDoForm > div{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+}
+form.toDoForm > div > input{
+    height: 40px;
+    border: none;
+    outline: none;
+    background: #fff;
+    padding: 15px;
+    padding-left: 20px;
+    border-radius: 8px;
+    width: 75%;
+    max-width: 250px;
+    font-family:'Oxygen', sans-serif;
+    font-weight: 300;
+}
+form.toDoForm > div > button{
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    border-radius: 8px;
+    background: rgb(74, 136, 250);
+    display: flex;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+form.toDoForm > section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+
+form.toDoForm > section > div{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 6px;
+}
+form.toDoForm > section > div > span{
+    border: none;
+    outline: none;
+    background: #fffbfb;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 8px;
+    display: block;
+    width: 75%;
+    font-family:'Oxygen', sans-serif;
+    font-weight: 300;
+}
+
+form.toDoForm > section > div > button{
+    height: 40px;
+    border: none;
+    outline: none;
+    width: 40px;
+    border-radius: 8px;
+    background: rgb(204, 24, 24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+form.toDoForm > section > div > button > svg{
+    height: 25px;
+}
+form.toDoForm > section > div > button > svg > path{
+    fill: #fff;
+}
+
+h1{
+font-family:"kanit",sans-serif;
+font-weight: 600;
+
+}
